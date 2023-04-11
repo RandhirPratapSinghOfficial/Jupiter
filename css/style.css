@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;300;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,600&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.main_body {
+  width: 80%;
+  /* height: 500px; */
+  background-color: #fff;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 0px 12px 1px rgba(140,135,140,1);
+-moz-box-shadow: 0px 0px 12px 1px rgba(140,135,140,1);
+box-shadow: 0px 0px 12px 1px rgba(140,135,140,1);
+}
+.title {
+  color: #F94A29;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.hr_line{
+    width: 95%;
+}
+.home_pic{
+    width: 170px;
+    height: 120px;
+    border-radius: 50px;
+   
+}
+.btn{
+    background-color: #F94A29 !important;
+    color: #fff !important;
+    
+}
+.home_form{
+    width: 60%;
+    
+}
+.home_form p{
+    font-size: 14px;
+}
+
+
+@media screen and (max-width: 769px) {
+    .main_body {
+        width: 100%;
+        /* height: 500px; */
+        background-color: #fff;
+        margin: auto;
+        /* margin-top: 30px; */
+        /* border-radius: 8px; */
+        -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+      }
+      .home_form{
+        width: 95%;
+        
+        
+    }
+  }
+
+
+
+  /* ##################### */
+
+  .intl-tel-input,
+.iti{
+  width: 100%;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 15px 19px;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #475F7B;
+    background-color: #FFF;
+    border: 1px solid #DFE3E7;
+    border-radius: .267rem;
+    -webkit-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control:focus {
+    color: #475F7B;
+    background-color: #FFF;
+    border-color: #5A8DEE;
+    outline: 0;
+    box-shadow: 0 3px 8px 0 rgb(0 0 0 / 10%);
+}
+i{
+   position: absolute;
+   right: 0;
+   top: -32px;
+    font-size: 50px !important;
+    /* float: right; */
+    color: #02ef41;
+}
